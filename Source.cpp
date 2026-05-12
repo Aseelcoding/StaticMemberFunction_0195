@@ -35,6 +35,7 @@ int main()
 {
 	Mahasiswa mhs1("Aseel");
 	Mahasiswa mhs2("Ahmed");
-
+	Mahasiswa mhs3("Ali");
+	Mahasiswa mhs4("Hussain");
 
 }
