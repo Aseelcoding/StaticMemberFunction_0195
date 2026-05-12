@@ -15,6 +15,10 @@ public :
 		setID();
 	}
 };
+
+int Mahasiswa::nim = 10;
+
+
 int main() 
 {
 
