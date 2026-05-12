@@ -57,4 +57,6 @@ int main()
 	mhs3.PrintAll();
 	mhs4.PrintAll();
 
+	cout << "\n\nAccess dari luar opject = " << Mahasiswa::getNIM() << endl;
+	system("pause");
 }
