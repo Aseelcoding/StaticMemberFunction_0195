@@ -52,4 +52,9 @@ int main()
 	Mahasiswa mhs4("Khalid");
 
 
+	mhs1.PrintAll();
+	mhs2.PrintAll();
+	mhs3.PrintAll();
+	mhs4.PrintAll();
+
 }
