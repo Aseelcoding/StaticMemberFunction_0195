@@ -14,4 +14,7 @@ mahasiswa::mahasiswa(int nim, string nama) {
 int main() 
 {
 
+    mahasiswa mhs(12345, "Pascal");
+
+    return 0;
 }
