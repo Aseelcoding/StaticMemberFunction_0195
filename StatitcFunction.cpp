@@ -11,6 +11,16 @@ public :
 
 	void setID();
 	void PrintAll();
+
+	static void setNIMM(int pnim) 
+	{
+		nim = pnim;
+	}
+
+	static int getNIM() 
+	{
+
+	}
 };
 
 
