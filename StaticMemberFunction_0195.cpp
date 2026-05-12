@@ -15,6 +15,9 @@ public :
 };
 int main()
 {
+	buku bukunya;
+	cout << bukunya.setget("Math");
+	return 0;
  
 }
 
