@@ -38,4 +38,9 @@ int main()
 	Mahasiswa mhs3("Ali");
 	Mahasiswa mhs4("Hussain");
 
+	mhs1.printAll();
+	mhs2.printAll();
+	mhs3.printAll();
+	mhs4.printAll();
+
 }
