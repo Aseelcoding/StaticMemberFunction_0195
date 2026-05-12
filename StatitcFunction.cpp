@@ -12,18 +12,30 @@ public :
 	void setID();
 	void PrintAll();
 
-	static void setNIMM(int pnim) 
+	static void setNIM(int pnim) 
 	{
 		nim = pnim;
 	}
 
 	static int getNIM() 
 	{
-
+		return nim;
 	}
+
+
+	Mahasiswa(string pnama) :name(pnama)
+	{
+		setID();
+	}
+
 };
 
+int Mahasiswa::nim = 0;
 
+void Mahasiswa::setID() 
+{
+	id = ++nim;
+}
 int main() 
 {
 
