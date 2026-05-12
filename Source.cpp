@@ -33,5 +33,8 @@ void Mahasiswa::printAll()
 
 int main() 
 {
+	Mahasiswa mhs1("Aseel");
+	Mahasiswa mhs2("Ahmed");
+
 
 }
