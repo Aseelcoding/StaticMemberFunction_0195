@@ -45,5 +45,11 @@ void Mahasiswa::PrintAll()
 }
 int main() 
 {
+	Mahasiswa mhs1("Aseel");
+	Mahasiswa mhs2("Ahmed");
+	Mahasiswa::setNIM(9);
+	Mahasiswa mhs3("Ali");
+	Mahasiswa mhs4("Khalid");
+
 
 }
